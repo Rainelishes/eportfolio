@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.mathBckgrnd {
+  background: url('http://cdn.pcwallart.com/images/universe-wallpaper-1920x1080-wallpaper-1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.math {
+  height: 100%;
+  padding-top: 50px;
+  color: white;
+}
+
+.header {
+  font-family: 'Lobster', cursive;
+  font-size: 25vh;
+  text-align: right;
+}
+
+.subheader {
+  font-family: 'Lobster', cursive;
+  font-size: 4vh;
+  text-align: right;
+}
+
+hr.hrDivider {
+  border: 1px outset rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+  width: 80vw;
+}
+
+.class > h4 {
+  color: rgba(256, 256, 256);
+  font:  700 2em 'Playfair Display', serif;
+}
+
+.class > ul {
+  font-family: 'Playfair Display', serif;
+  list-style: none;
+}
+
+a {
+  color: #00f;
+}
