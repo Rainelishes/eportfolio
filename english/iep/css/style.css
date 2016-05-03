@@ -1,19 +1,16 @@
 html, body {
   height: 100%;
   width: 100%;
+  background: url('http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/wood/wood-002649-ultramarine-blue.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
-
-.iep {
+#iep {
   height: 100%;
   padding-top: 50px;
 }
-
 .iepBckgrnd {
-  background: url('http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/wood/wood-002649-ultramarine-blue.jpg') no-repeat center center fixed;
-  background-size: cover;
   height: 100%;
 }
-
 .iepImg {
   border: 10px outset rgba(0, 0, 0, 0.3);
   border-radius: 50%;
@@ -22,9 +19,44 @@ html, body {
   margin-top: 75px;
   width: 250px;
 }
-
 .bottomleft {
-    position: absolute;
+    position: fixed;
     bottom: 8px;
     left: 16px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+.title > h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 6vh;
+}
+.title > h5 {
+  font-family: 'Lobster', cursive;
+  font-size: 5vh;
+}
+.iepBody {
+  color: white;
+  font: 700 3vh 'Playfair Display', serif;
+  margin: 6vh;
+  text-align: left;
+}
+.iepBody > p > a {
+  color: white;
+}
+
+div.worksCited {
+  color: white;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+.worksCited > ol > li{
+  color: white;
+  font: 700 2vh 'Playfair Display', serif;
+}
+.worksCited > ol > li > a{
+  color: white;
 }
