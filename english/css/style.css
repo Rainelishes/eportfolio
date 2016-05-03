@@ -40,7 +40,7 @@ hr.hrDivider {
 }
 
 .class > ul {
-  font: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
   list-style: none;
 }
 
