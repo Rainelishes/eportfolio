@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  background: url("http://digitalresult.com/wp-content/uploads/2016/03/monochrome-forest-mountains-scenery-16.jpeg") no-repeat fixed center;
+  background-image: radial-gradient(top, circle cover,  hsla(205, 95%, 15%, 1) 0%, hsla(251, 20%, 17%,1) 80%);
+  overflow: hidden;
+}
+
+/*Navigation Bar*/
+.navbar {
+  background: rgba(0,191,255, 0.5);
+  color: black;
+}
+.navbar .navbar-header > span.name {
+  color: #000;
+  font: 2em "Lobster", cursive;
+}
+.navbar .nav > li > a {
+  color: #000;
+  font: 700 2em 'Playfair Display', serif;
+}
+.navbar .nav > li > a:hover {
+  background: rgba(128, 128, 128, 0.6);
+  font: 700 2em 'Playfair Display', serif;
+}
+
+
+/*Background*/
+.helix {
+  margin: 40vh -15%;
+  width: 200%;
+  height: 40vh;
+  transform:rotate(90deg);
+  transform-style:preserve-3d;
+  z-index: -2;
+}
+.dblHelix {
+  perspective: 1000px;
+  white-space: nowrap;
+  z-index: -1;
+}
+.dblHelix > div {
+  display: inline-block;
+  position: relative;
+  margin: 0 6px;
+  width: 1px;
+  height: 30vh;
+  box-shadow: 1px 1px 1px 1px hsla(0,0%,0%,0.2);
+  background:hsla(243, 100%, 85%, 1);
+  animation: rot 5s linear infinite, 
+             chngCol 5s linear alternate infinite;
+  transition:all 1s ease;
+  z-index: -1;
+}
+.dblHelix > div::before,
+.dblHelix > div::after {
+  position: absolute;
+  left: -2px;
+  border-radius: 50%;
+  width: 12px;
+  height: 10px;
+  box-shadow: 2px 2px 2px 2px hsla(0,0%,0%,0.25);
+  background: hsla(243, 95%, 85%, 1);
+  content: "";
+  z-index: -1;
+}
+.dblHelix > div::before {
+  top: -2px;
+}
+.dblHelix > div::after {
+  bottom: -2px;
+}
+@keyframes rot{
+  to {
+    transform: rotateX(360deg);
+  }
+}
+@keyframes chngCol {
+  to {
+    background: hsla(253, 85%, 25%, 1);
+  }
+}
+
+/*Main Information*/
+#biology {
+  margin: 30px;
+  position: absolute;
+  top: 50px;
+}
+.header {
+  color: rgba(255, 174, 0, 0.8);
+  font: 10em 'Lobster', cursive;
+  text-align: right;
+}
+.subheader {
+  color: rgb(255, 255, 255);
+  font: 700 2em "Playfair Display", serif;
+  margin-left: 50%;
+  word-spacing: 5px;
+  text-align: right;
+}
+hr.divider {
+  border: 1px outset rgba(0, 255, 192, 0.6);
+  box-shadow: 1px 1px 1px rgba(255, 0, 63, 1);
+  width: 80vw;
+}

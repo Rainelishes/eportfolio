@@ -1,0 +1,49 @@
+html, body {
+  background: url('https://wallpaperscraft.com/image/texture_pattern_black_background_50469_2560x1600.jpg') no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.engBckgrnd {
+  height: 100%;
+}
+
+.english {
+  height: 100%;
+  padding-top: 50px;
+  color: white;
+}
+
+.header {
+  font-family: 'Lobster', cursive;
+  font-size: 25vh;
+  text-align: right;
+}
+
+.subheader {
+  font-family: 'Lobster', cursive;
+  font-size: 4vh;
+  text-align: right;
+}
+
+hr.hrDivider {
+  border: 1px outset rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1px rgba(255, 255, 51, 0.6);
+  width: 80vw;
+}
+
+.class > h4 {
+  color: rgba(255, 255, 51, 0.6);
+  font:  700 2em 'Playfair Display', serif;
+}
+
+.class > ul {
+  font-family: 'Playfair Display', serif;
+  list-style: none;
+}
+
+.class > ul > li > a {
+  font:  700 2em 'Playfair Display', serif;
+}
