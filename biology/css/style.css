@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   background: url("../../imgs/doubleHelixbckgrnd.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -58,3 +59,65 @@ hr.divider {
   font: 700 2em "Playfair Display", serif;
   color: whitesmoke;
 }
+=======
+html, body {
+  background: url("../../imgs/doubleHelixbckgrnd.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/*Navigation Bar*/
+.navbar {
+  background: rgba(0,255,191,0.5);
+  color: black;
+}
+.navbar .navbar-header > span.name {
+  color: #000;
+  font: 2em "Lobster", cursive;
+}
+.navbar .nav > li > a {
+  color: #000;
+  font: 700 2em 'Playfair Display', serif;
+}
+.navbar .nav > li > a:hover {
+  background: rgba(128, 128, 128, 0.6);
+  font: 700 2em 'Playfair Display', serif;
+}
+
+/*Main Information*/
+#biology {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.header {
+  color: rgb(255,255,255);
+  font: 10em 'Lobster', cursive;
+  margin-right: 50%;
+}
+.subheader {
+  color: rgb(255, 255, 255);
+  font: 700 2em "Playfair Display", serif;
+  margin-right: 50%;
+  word-spacing: 5px;
+}
+hr.divider {
+  border: 1px outset rgba(255,255,255,0.6);
+  width: 80vw;
+}
+#bioPaper {
+  background: rgba(150,150,150,0.75);
+  postion: relative;
+  margin-left: 25px;
+  margin-right: 28%;
+}
+#bioPaper>h2 {
+  text-align: center;
+  font: 700 3em "Lobster", cursive;
+  color: rgb(255,255,255);
+}
+#bioPaper>p {
+  font: 700 2em "Playfair Display", serif;
+  color: whitesmoke;
+}
+>>>>>>> origin/master
